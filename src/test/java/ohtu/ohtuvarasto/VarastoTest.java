@@ -126,7 +126,7 @@ public class VarastoTest {
 
         Varasto yliKuormitettuVarasto = new Varasto(10, 11);
         assertEquals(10, yliKuormitettuVarasto.getSaldo(), vertailuTarkkuus);
-        assertEquals(0, yliKuormitettuVarasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(1, yliKuormitettuVarasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
 }
