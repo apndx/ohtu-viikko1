@@ -38,5 +38,14 @@ jar {
     }
 }
 
-// Gradlen JaCoCo -plugin käyttöön testikattavuuden selvittämiseksi
+// Gradle JaCoCo -plugin 
 apply plugin: "jacoco" 
+
+
+// Codecov activation
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
