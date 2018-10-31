@@ -104,7 +104,6 @@ public class VarastoTest {
         assertEquals(0, huonoVarasto.getTilavuus(), vertailuTarkkuus);
 
         Varasto huonoTaytettyVarasto = new Varasto(-5, -5);
-
         assertEquals(0, huonoTaytettyVarasto.getTilavuus(), vertailuTarkkuus);
         assertEquals(0, huonoTaytettyVarasto.getSaldo(), vertailuTarkkuus);
 
