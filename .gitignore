@@ -1,2 +1,4 @@
 *.tmp
 build/
+.gradle/
+.nb-gradle/private/cache
