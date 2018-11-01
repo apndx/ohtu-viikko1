@@ -2,3 +2,10 @@
 build/
 .gradle/
 .nb-gradle/private/cache
+/viikko1/RiippuvuuksienInjektointi1/.nb-gradle/
+/viikko1/NhlStatistics1/.nb-gradle/
+/viikko1/RiippuvuuksienInjektointi1/.gradle/
+/viikko1/NhlStatistics1/.gradle/
+/viikko1/RiippuvuuksienInjektointi1/build/
+/viikko1/NhlStatistics1/build/
+
