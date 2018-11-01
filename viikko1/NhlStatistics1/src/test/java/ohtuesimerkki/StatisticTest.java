@@ -73,11 +73,10 @@ public class StatisticTest {
     public void doTopScoresWorkCorrectly() {
         List<Player> bestOnes = stats.topScorers(3);
 
-        assertEquals(4, bestOnes.size());
+        assertEquals(3, bestOnes.size());
         assertEquals("Gretzky", bestOnes.get(0).getName());
         assertEquals("PIT", bestOnes.get(1).getTeam());
         assertEquals(42, bestOnes.get(2).getGoals());
-        assertEquals(53, bestOnes.get(3).getAssists());
 
     }
 
