@@ -18,9 +18,9 @@ public class Varasto {
     }
 
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
-        
+
         this.tilavuus = Math.max(0, tilavuus);
-        
+
         if (alkuSaldo <= this.tilavuus && alkuSaldo >= 0) {
             this.saldo = alkuSaldo;
         } else {

@@ -76,14 +76,10 @@ public class VarastoTest {
     public void voidaankoOttaaTaiLisätäLiikaa() {
 
         assertEquals(0, varasto.otaVarastosta(11), vertailuTarkkuus);
-
         varasto.lisaaVarastoon(8);
-
         assertEquals(8, varasto.otaVarastosta(11), vertailuTarkkuus);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
-
         varasto.lisaaVarastoon(11);
-
         assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
         assertEquals(10, varasto.otaVarastosta(11), vertailuTarkkuus);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
